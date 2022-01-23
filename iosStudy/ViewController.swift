@@ -32,8 +32,13 @@ class ViewController: UIViewController {
             action02 in self.refresh()
         })
         
+        let action03 = UIAlertAction(title: "X", style: .default, handler: {
+            action03 in self.refresh()
+        })
+        
         alert.addAction(action01)
         alert.addAction(action02)
+        alert.addAction(action03)
         
         present(alert, animated: true, completion: nil)
    
